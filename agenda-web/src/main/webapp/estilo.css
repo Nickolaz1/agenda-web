@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+	font-family:'Itim', cursive;
+	font-size: 18px;
+}
+
+h1{
+	color: crimson;
+}
+
+.Botao1{
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+	background-color: crimson;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+.Botao2{
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+	background-color: #0000ff;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.Caixa1{
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid crimson;
+	border-radius: 5px; 
+}
+
+.Caixa2{
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid crimson;
+	border-radius: 5px; 
+}
+
+#caixa3{
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #0000ff;
+	border-radius: 5px; 
+}
+
+#tabela{
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+#tabela th{
+	border: 1px solid white;
+	padding: 10px;
+	text-align: left;
+	background-color: crimson;
+	color: white;
+}
+
+#tabela td{
+	border: 1px solid crimson;
+	padding: 10px;
+}
+
+
